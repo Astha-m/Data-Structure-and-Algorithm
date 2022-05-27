@@ -1,0 +1,8 @@
+after learning the 0-1 Knapsack problem one can easily solve the following below problems as they all are based on the same concept:-
+1. subset sum problem-----------------------------------done
+2. equal sum partition-----------------------------------done
+3. count of subset sum with given sum--------------------done
+4. minimum subset sum difference-------------------------done
+5. target sum--------------------------------------------done
+6. number of subsets with the given difference.----------done
+7. 0-1 Knapsack------------------------------------------done

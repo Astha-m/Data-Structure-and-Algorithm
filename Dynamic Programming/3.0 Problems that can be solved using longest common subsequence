@@ -1,0 +1,15 @@
+Problems that can be solved using longest common subsequence:-
+1. Longest common Substring........................................................done
+2. print lcs.......................................................................done
+3. shortest common supersequence...................................................done
+4. print shortest common supersequence.............................................done
+5. minimum number of insertions and deletions......................................done
+6. largest repeating subsequence...................................................done
+7. length of the longest subsequence of which another string is a substring........done
+8. subsequence pattern matching....................................................done
+9. count of how many times A appears as a subsequence in B.........................
+10. Longest palindromic subsequence................................................done
+11. largest palindromic substring..................................................
+12. count of palindromic substrings................................................
+13. minimum number of deletions to make a string palindromic.......................done
+14. minimum number of insertions to make a string palindromic......................done
