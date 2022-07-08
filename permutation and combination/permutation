@@ -1,0 +1,12 @@
+---->>distribute n distinct items among n people---n!
+
+---->>distribute n distinct items to r people----n!/(n-r)!
+
+---->>distribute n types of items (each item has huge quantity) to r people--- n^r
+
+---->>total n items with some repetations m1,m2,m3---- n!/(m1! * m2! * m3)
+
+---->>count the number of ways to distribute n items in a circle--- (n-1)!
+
+
+
