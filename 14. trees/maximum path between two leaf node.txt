@@ -1,0 +1,45 @@
+https://practice.geeksforgeeks.org/problems/maximum-path-sum/1
+
+
+class Solution:
+
+    def maxPathSumUtil(self,root, res):
+ 
+    
+        if root is None:
+            return 0
+     
+        
+        ls = self.maxPathSumUtil(root.left, res)
+        rs =self. maxPathSumUtil(root.right, res)
+     
+        
+        if root.left is not None and root.right is not None:
+     
+            
+            res[0] = max(res[0], ls + rs + root.data)
+     
+            
+            return max(ls, rs) + root.data
+     
+        
+        if root.left is None:
+            return rs + root.data
+        else:
+            return ls + root.data
+
+
+
+    def maxPathSum(self, root):
+        
+        res = [-float('inf')]
+        
+        if(not root.left):
+            root.left=Node(0)
+        if(not root.right):
+            root.right=Node(0)
+        
+        
+        self.maxPathSumUtil(root, res)
+        return res[0]
+            
