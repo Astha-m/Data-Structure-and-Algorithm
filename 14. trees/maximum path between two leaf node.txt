@@ -1,4 +1,4 @@
-https://practice.geeksforgeeks.org/problems/maximum-path-sum/1
+https://www.geeksforgeeks.org/find-maximum-path-sum-two-leaves-binary-tree/
 
 
 class Solution:
